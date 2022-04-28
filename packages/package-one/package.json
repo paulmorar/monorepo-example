@@ -1,0 +1,8 @@
+{
+  "name": "package-one",
+  "version": "1.0.0-alpha.1",
+  "description": "Does a random basic calculation",
+  "scripts": {
+    "test:unit": "jest"
+  }
+}

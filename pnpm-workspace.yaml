@@ -1,0 +1,4 @@
+packages:
+  # all packages in subdirectories of packages/ and test/ will be considered as individual
+  - "packages/**"
+  - "test/**"

@@ -1,0 +1,11 @@
+{
+  "name": "package-two",
+  "version": "1.0.0-beta.1",
+  "description": "Multiply with self twice",
+  "scripts": {
+    "test:unit": "jest"
+  },
+  "dependencies": {
+    "package-one": "workspace:*"
+  }
+}
