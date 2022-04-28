@@ -3,6 +3,7 @@
   "version": "1.0.0-beta.1",
   "description": "Multiply with self twice",
   "scripts": {
+    "build": "echo \"Building package two!\" && exit 0",
     "test:unit": "jest"
   },
   "dependencies": {

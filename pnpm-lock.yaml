@@ -23,6 +23,14 @@ importers:
     dependencies:
       package-one: link:../package-one
 
+  test:
+    specifiers:
+      package-one: workspace:*
+      package-two: workspace:*
+    dependencies:
+      package-one: link:../packages/package-one
+      package-two: link:../packages/package-two
+
 packages:
 
   /@ampproject/remapping/2.2.0:

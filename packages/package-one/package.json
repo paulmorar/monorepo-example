@@ -3,6 +3,7 @@
   "version": "1.0.0-alpha.1",
   "description": "Does a random basic calculation",
   "scripts": {
+    "build": "echo \"Building package one!\" && exit 0",
     "test:unit": "jest"
   }
 }
